@@ -1,4 +1,4 @@
-name: "Set Issue Label and Assignee"
+name: "Set Issue Label on Tech"
 on:
   issues:
     types: [opened]
@@ -12,5 +12,5 @@ jobs:
       - uses: Naturalclar/issue-action@v2.0.2
         with:
           title-or-body: "both"
-          parameters: '[ {"keywords": ["Solar", "solar"], "labels": ["Technology: Solar"]}, {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}]'
+          parameters: '[ {"keywords": ["Solar", "solar"], "labels": ["Technology: Solar"]}, {"keywords": ["Hydrogen", "hydrogen"], "labels": ["Technology: Hydrogen"]}]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
