@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: Naturalclar/issue-action@v2.0.2
         with:
-          title-or-body: "both"
+          title-or-body: "title"
           parameters: '[ {"keywords": ["Solar", "solar"], "labels": ["Technology: Solar"]}, {"keywords": ["Hydrogen", "hydrogen"], "labels": ["Technology: Hydrogen"]}]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
