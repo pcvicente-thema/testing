@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: Naturalclar/issue-action@v2.0.2
         with:
-          title-or-body: "both"
-          parameters: '[ {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}]'
+          title-or-body: "title"
+          parameters: '[ {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}, {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
