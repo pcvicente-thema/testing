@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: "Set Issue Label and Assignee"
 on:
   issues:
@@ -14,8 +12,5 @@ jobs:
       - uses: Naturalclar/issue-action@v2.0.2
         with:
           title-or-body: "both"
-          parameters: '[ {"keywords": ["bug", "error"], "labels": ["BUG"], "assignees": ["pcvicente-thema"]}, {"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": ["username"]}]'
+          parameters: '[ {"keywords": ["Solar", "solar"], "labels": ["Technology: Solar"]}, {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-        
-
-          
