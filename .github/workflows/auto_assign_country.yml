@@ -12,5 +12,5 @@ jobs:
       - uses: Naturalclar/issue-action@v2.0.2
         with:
           title-or-body: "title"
-          parameters: '[ {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}, {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}]'
+          parameters: '[ {"keywords": ["Spain", "spain"], "labels": ["Country: Spain"], "assignees": ["pcvicente-thema"]}, {"keywords": ["Italy", "italy"], "labels": ["Country: Italy"], "assignees": ["pcvicente-thema"]}]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
